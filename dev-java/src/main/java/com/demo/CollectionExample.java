@@ -30,6 +30,10 @@ public class CollectionExample {
 			}
 			
 		});*/
+		//pack.stream().filter(name -> name.get)
+		
+		
+		
 	}
 
 }

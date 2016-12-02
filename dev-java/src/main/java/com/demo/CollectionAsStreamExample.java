@@ -20,7 +20,7 @@ public class CollectionAsStreamExample {
 		//pack.forEach(names -> System.out.println(names.toUpperCase()));
 		pack.forEach(pack1::add);
 		pack1.add("third");
-		//pack1.forEach(names -> System.out.println(names.toUpperCase()));
+		pack1.forEach(names -> System.out.println(names.toUpperCase()));
 		
 		//pack1.stream().map(String::toUpperCase).forEach(System.out::println);;
 		//pack1.forEach((String names) -> System.out.println(names));
